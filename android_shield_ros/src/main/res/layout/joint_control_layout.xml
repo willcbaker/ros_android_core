@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/joints">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/scrollView"
+        android:layout_toRightOf="@+id/scrollView"
+        android:minWidth="@dimen/abc_action_bar_stacked_tab_max_width" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:minWidth="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_above="@+id/seekBar4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="31dp" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar4"
+        android:minWidth="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/scrollView" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar5"
+        android:minWidth="@dimen/abc_action_bar_stacked_tab_max_width"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/seekBar4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/joint0"
+        android:id="@+id/textView1"
+        android:layout_alignBottom="@+id/seekBar"
+        android:layout_toRightOf="@+id/seekBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/joint1"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/seekBar2"
+        android:layout_toRightOf="@+id/seekBar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/joint2"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/seekBar5"
+        android:layout_toRightOf="@+id/seekBar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/joint0"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/seekBar5"
+        android:layout_toRightOf="@+id/seekBar5" />
+
+</RelativeLayout>
