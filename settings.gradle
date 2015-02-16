@@ -15,7 +15,7 @@
  */
 
 include 'android_gingerbread_mr1', 'android_benchmarks', 'android_tutorial_camera',
-        'android_tutorial_image_transport', 'android_tutorial_pubsub', 'android_shield_ros'
+        'android_tutorial_image_transport', 'android_tutorial_pubsub', 'android_shield_ros', 'android_ble_rssi_ros'
 include 'android_honeycomb_mr2', 'android_acm_serial', 'android_tutorial_map_viewer',
         'android_tutorial_teleop'
 include 'docs'
@@ -25,3 +25,4 @@ include 'docs'
 
     polling_input_stream, compressed_map_transport
 */
+include ':chat'
