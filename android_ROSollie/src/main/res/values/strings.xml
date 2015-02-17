@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ROSollie</string>
+    <string name="developer_mode">Developer Mode</string>
+    <string name="spin_title">Spin</string>
+    <string name="speed_title">Speed</string>
+    <string name="rssi_value">0</string>
+    <string name="rssi_title">RSSI: </string>
+    <string name="rssi_unit"> dB</string>
+    <string name="rssi_median">0</string>
+    <string name="locator">Locator Data</string>
+    <string name="accel">Accelerometer Data</string>
+    <string name="gyro">Gyro Data</string>
+    <string name="zero_heading">Re-Orient</string>
+    <string name="zero_location">Set Origin</string>
+    <string name="setup">Setup</string>
+    <string name="add_robot">+ Robot</string>
+    <string name="localizer">Localizer</string>
+</resources>

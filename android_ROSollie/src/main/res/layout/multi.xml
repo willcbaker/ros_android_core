@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note that the xlmns:app tag is for connecting the puck attirbutes to the joystick view -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/entire_view"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/setup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/setup"
+                />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"/>
+        <com.wakebyte.rosollie.PaintView
+            android:id="@+id/paint_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <!--LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:text="@string/rssi_title"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                />
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/rssi_val"
+                android:textSize="20dp"
+                android:text="@string/rssi_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                />
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="@string/rssi_unit"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                />
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"/>
+            <TextView
+                android:id="@+id/rssi_median"
+                android:textSize="32sp"
+                android:text="@string/rssi_median"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                />
+            <Space
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textSize="32sp"
+                android:text="@string/rssi_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                />
+            </LinearLayout-->
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
